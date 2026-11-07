@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sindhuja's Online Pharmacy Management System| Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dashboard">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-icon">✚</span><span>SINDHUJA <small>PHARMACY</small></span></a>
+    <nav>
+      <a class="active" href="index.html">▦ <span>Dashboard</span></a>
+      <a href="users.html">♙ <span>Users</span></a>
+      <a href="medicines.html">✚ <span>Medicines</span></a>
+      <a href="orders.html">▤ <span>Orders</span></a>
+      <a href="order-items.html">☷ <span>Order Items</span></a>
+    </nav>
+    <div class="sidebar-note">Pharmacy management<br><strong>Simple. Organized. Reliable.</strong></div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div><p class="eyebrow">OVERVIEW</p><h1>Dashboard</h1><p class="muted">Welcome to your pharmacy management workspace.</p></div>
+      <span class="admin-badge">● Admin workspace</span>
+    </header>
+
+    <section class="welcome-card">
+      <div><p class="eyebrow light">SINDHUJA PHARMACY</p><h2>Manage your pharmacy with confidence.</h2><p>View customers, keep medicine stock organized, and track every order in one place.</p></div>
+      <div class="welcome-symbol">✚</div>
+    </section>
+
+    <section class="stats-grid">
+      <article class="stat-card"><span class="stat-icon teal">♙</span><div><p>Total users</p><h2 id="users-count">—</h2></div></article>
+      <article class="stat-card"><span class="stat-icon blue">✚</span><div><p>Medicines</p><h2 id="medicines-count">—</h2></div></article>
+      <article class="stat-card"><span class="stat-icon orange">▤</span><div><p>Orders</p><h2 id="orders-count">—</h2></div></article>
+      <article class="stat-card"><span class="stat-icon purple">☷</span><div><p>Order items</p><h2 id="items-count">—</h2></div></article>
+    </section>
+
+    <section class="section-heading"><div><p class="eyebrow">QUICK ACCESS</p><h2>Manage records</h2></div></section>
+    <section class="quick-grid">
+      <a class="quick-card" href="users.html"><span>♙</span><div><h3>Users</h3><p>Add and manage customer details</p></div><b>→</b></a>
+      <a class="quick-card" href="medicines.html"><span>✚</span><div><h3>Medicines</h3><p>Update prices, stock and expiry dates</p></div><b>→</b></a>
+      <a class="quick-card" href="orders.html"><span>▤</span><div><h3>Orders</h3><p>Review customer orders and status</p></div><b>→</b></a>
+      <a class="quick-card" href="order-items.html"><span>☷</span><div><h3>Order items</h3><p>View medicines included in orders</p></div><b>→</b></a>
+    </section>
+    <p id="connection-status" class="connection-status">Checking database connection…</p>
+    <footer>© 2026 SINDHUJA Pharmacy · Student project demonstration</footer>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
